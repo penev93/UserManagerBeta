@@ -1,0 +1,38 @@
+.x
+{
+  background-image: url("./ocean.jpg");
+    background-size:cover;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position:absolute;
+    width:100%;
+    height:100%;
+
+}
+.formCenter {
+  margin:0 auto;
+  top:10%;
+
+}
+
+.formCenter {
+  min-width: 300px;
+  max-width: 500px;
+  padding: 50px;
+}
+ .input-group 
+ {
+  margin-bottom: 5px;
+ }
+#loginForm {
+  margin: 20px 0;
+
+}
+@media (max-width: 768px) {
+  .formCenter{
+    width: 50%;
+  }
+}
